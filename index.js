@@ -228,6 +228,10 @@ async function init() {
       text: 'Downloaded',
     })
 
+    // 删除.git目录
+    fs.rmSync(path.resolve(root, '.git'), { recursive: true, force: true })
+
+    // 修改package.json的name字段
     const pkgPath = path.join(root, 'package.json')
 
     const pkg = JSON.parse(
@@ -238,6 +242,7 @@ async function init() {
 
     fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2))
 
+    // 是否存在lock文件
     const rootDirs = fs.readdirSync(root)
 
     const lockFile = rootDirs.filter((fileName) => {
