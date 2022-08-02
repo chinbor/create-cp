@@ -1,0 +1,50 @@
+{
+  "name": "create-cp",
+  "version": "0.0.5",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "help to create project quickly",
+  "keywords": [
+    "project",
+    "create",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "chinbor Mn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinbor/create-cp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chinbor/create-cp/issues"
+  },
+  "homepage": "https://github.com/chinbor/create-cp#readme",
+  "bin": {
+    "create-cp": "index.js",
+    "cvp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "kolorist": "^1.5.1",
+    "minimist": "^1.2.6",
+    "ora": "^6.1.2",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
+    "eslint": "^8.21.0",
+    "typescript": "^4.7.4"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
+  }
+}
