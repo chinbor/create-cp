@@ -53,6 +53,11 @@ const OWNERS = [
         color: yellow,
         value: 'git@github.com:chinbor/starter-wechat-applet.git',
       },
+      {
+        name: 'starter-h5',
+        color: blue,
+        value: 'git@github.com:chinbor/starter-h5.git',
+      },
     ],
   },
 ]
