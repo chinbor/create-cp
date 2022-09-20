@@ -1,6 +1,6 @@
 {
   "name": "create-cp",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -33,6 +33,9 @@
   "engines": {
     "node": ">=16.0.0"
   },
+  "scripts": {
+    "release": "bumpp package.json"
+  },
   "dependencies": {
     "kolorist": "^1.5.1",
     "minimist": "^1.2.6",
@@ -41,6 +44,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
+    "bumpp": "^8.2.1",
     "eslint": "^8.21.0",
     "typescript": "^4.7.4"
   },
