@@ -1,6 +1,6 @@
 {
   "name": "create-cp",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "description": "help to create project quickly",
   "keywords": [
@@ -31,7 +31,7 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "release": "bumpp package.json && pnpm publish --access public"
+    "release": "bumpp package.json --commit --push --tag && pnpm publish --access public"
   },
   "dependencies": {
     "kolorist": "^1.5.1",
