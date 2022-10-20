@@ -11,6 +11,7 @@ import prompts from 'prompts'
 import ora from 'ora'
 import {
   blue,
+  cyan,
   green,
   magenta,
   red,
@@ -40,6 +41,16 @@ const OWNERS = [
         name: 'starter-ts',
         color: magenta,
         value: 'git@github.com:antfu/starter-ts.git',
+      },
+      {
+        name: 'unplugin-starter',
+        color: green,
+        value: 'git@github.com:antfu/unplugin-starter.git',
+      },
+      {
+        name: 'starter-vscode',
+        color: cyan,
+        value: 'git@github.com:antfu/starter-vscode.git',
       },
     ],
   },
