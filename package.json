@@ -1,6 +1,6 @@
 {
   "name": "create-cp",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "type": "module",
   "description": "help to create project quickly",
   "keywords": [
