@@ -54,7 +54,6 @@ const OWNERS = [
       },
     ],
   },
-  // TODO: chinbor的小程序跟web端模板的抽离
   {
     name: 'chinbor',
     color: yellow,
@@ -68,6 +67,11 @@ const OWNERS = [
         name: 'starter-h5',
         color: blue,
         value: 'git@github.com:chinbor/starter-h5.git',
+      },
+      {
+        name: 'starter-static-pages',
+        color: magenta,
+        value: 'git@github.com:chinbor/starter-static-pages.git',
       },
     ],
   },
